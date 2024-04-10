@@ -7318,19 +7318,20 @@ html.sidebar-light:not(.dark) ul.nav-main li .nav-children li a:focus {
 
 /* Buttons */
 .btn-default {
-    color: #333;
+    color: #4f4f4f;
     background-color: #fff;
-    border-color: #ccc;
+    border-color: black;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+    font-weight: bold;
 }
 
 .btn-default:hover,
 .btn-default:active,
 .btn-default:focus {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad;
+    color: #4f4f4f;
+    background-color: #f7f5f5;
+    border-color: black;
 }
 
 .btn {
@@ -7402,8 +7403,9 @@ html.sidebar-light:not(.dark) ul.nav-main li .nav-children li a:focus {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color: #ccc;
-    border-color: #ccc #ccc #b3b3b3;
+    background-color: #0067b8;
+    border-color: #0067b8;
+    opacity: revert;
 }
 
 .btn-primary:active,
@@ -7421,16 +7423,19 @@ html.sidebar-light:not(.dark) ul.nav-main li .nav-children li a:focus {
 }
 
 .btn-success {
-    background-color: #47a447;
-    border-color: #47a447 #47a447 #388038;
+    background-color: #0067b8;
+    border-color: #0067b8;
     color: #fff;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .btn-success:hover,
 .btn-success.hover {
-    background-color: #5ab75a;
-    border-color: #63bb63 #63bb63 #47a447;
+    background-color: #005faa;
+    border-color: #005faa;
     color: #fff;
+    box-shadow: none;
 }
 
 .btn-success:focus,
@@ -16494,7 +16499,7 @@ p .alternative-font {
 a,
 a:hover,
 a:focus {
-    color: #ccc;
+    color: black;
 }
 
 /* Drop Caps */
@@ -20974,6 +20979,6 @@ html.dark ul.nav-main li.nav-description{
     background-color: #0071C8 !important;
 }
 .fa-angle-right{
-    color: #fff;
+    color: #fff
 }
 ```
