@@ -13,7 +13,7 @@ const config = {
   favicon: 'https://i.ibb.co/njPcJ5b/JC-logo.png',
 
   // Set the production url of your site here
-  url: 'https://manual.chat.pe',
+  url: 'https://jairoecc.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/caso7/',

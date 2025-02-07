@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://jairoecc.github.io/caso7",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'miformulario.xyz' > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
