@@ -2,9 +2,9 @@
   "name": "caso-7",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://jairoecc.github.io/caso7",
+  "homepage": "https://miformulario.xyz",
   "scripts": {
-    "predeploy": "npm run build && echo 'miformulario.xyz' > ./build/CNAME",
+    "predeploy": "npm run build && echo miformulario.xyz > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
