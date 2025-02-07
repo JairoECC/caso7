@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcaso_7=self.webpackChunkcaso_7||[]).push([[923],{2315:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/caso7/blog/tags/facebook","allTagsPath":"/caso7/blog/tags","count":1,"unlisted":false}')}}]);
